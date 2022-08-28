@@ -1,14 +1,18 @@
 {
   "name": "eslint-formatter-toml",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ESLint custom formatter that publishes the formatter output in TOML",
+  "main": "formatter.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["eslint-formatter", "eslintformatter", "eslint"],
+  "author": {
+    "name" : "Ben Perlmutter",
+    "email" : "ben@perlmutter.io",
+    "url" : "http://ben.perlmutter.io/"
+  },
+  "license": "MIT",
   "dependencies": {
     "json2toml": "^3.0.1"
   },
